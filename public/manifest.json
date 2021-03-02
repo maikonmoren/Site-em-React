@@ -1,0 +1,24 @@
+{
+    "short_name": "Tecnup",
+    "name" : "Tecnup Tecnologia",
+    "description":"Crie e inova sua tecnologia",
+    "icons":[{
+        "src":"img/logo.png",
+        "type":"image/png",
+        "sizes":"192x192",
+        "purpose":"any maskable"
+    }],
+    "start_url":".",
+    "display":"fullscreen",
+    "orientation": "portrait-primary",
+    "theme_color": "#ffffff",
+    "shortcuts":[
+        {
+            "name": "Tecnup",
+            "short_name":"Tecnup",
+            "url":"?source=pwa",
+            "icons":[{"src":"img/logo.png", "size":"192x192"}]
+        }
+    ]
+    
+}

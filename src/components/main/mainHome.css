@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.mainhome{
+    position: absolute;
+    top : 0px;
+    height: 670px;
+    flex-direction: row;
+    width: 100%;
+    padding: 5px 5% 5px 0;
+    background-image: linear-gradient(135deg, rgb(213, 213, 236) , rgb(196, 193, 235));
+   
+
+}
+.mainhome img{
+    position: absolute;
+    top: 30%;
+    width: 5em;
+    left: 7%;
+}
+.mainhome .titulo{
+    position: absolute;
+    top: 30%;
+    left: 14%;
+    font: 5em 'Roboto';
+    color: rgb(70, 82, 250);
+    
+ ;
+}
+.home-info{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.home-info h4{
+    text-align: center;
+    font: 2em 'Roboto';  
+}
+
+.btn {
+    position: relative;
+    box-sizing: border-box;
+    left: 20%;
+    background-color: transparent;
+    border-radius: 0.6em;
+    cursor: pointer;
+    margin: 15px;
+    padding: 2% 2% 2% 2%;
+    text-align: center;
+    font: 2em 'Roboto';
+    
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+.fourth {
+    border-color: rgb(70, 82, 250);
+    color: rgb(29, 27, 27);
+    background-image: -webkit-linear-gradient(45deg, #b7a4e2 50%, transparent 50%);
+    background-image: linear-gradient(45deg, rgb(70, 82, 250 )50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .fourth:hover {
+    background-position: 0;
+  }
+@media screen and (max-width: 480px) {
+ .mainhome{top: 50px; height: 300px; width: 100%;}
+ .mainhome img{
+    top: 10%;
+    width: 3em;
+    left: 15%;
+}
+.mainhome .titulo{
+    top: 10%;
+    left: 30%;
+    font: 3em 'Roboto';}
+
+.home-info{
+        top: 30%;
+        left: 2%;
+}
+    
+.home-info h4{
+        text-align: center;
+        font: 25px 'Roboto';  
+    }
+.btn {
+        left: 20%;
+
+        font: 26px 'Roboto';
+        
+      }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+ .mainhome{top: 50px; height: 350px; width: 100%;}
+ .mainhome img{
+    display: none;
+}
+.mainhome .titulo{
+    display: none;}
+
+.home-info{
+        top: 20%;
+        left: 20%;
+}
+    
+.home-info h4{
+        text-align: center;
+        font: 2em 'Roboto';  
+    }
+.btn {
+        left: 20%;
+        font: 2.1em 'Roboto';
+        
+      }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .mainhome{top: 50px; height: 400px; width: 100%;}
+ .mainhome img{
+    top: 15%;
+    width: 4em;
+    left: 10%;
+}
+.mainhome .titulo{
+    top: 15%;
+    left: 18%;
+    font: 4em 'Roboto';}
+
+.home-info{
+        top: 50%;
+        left: 30%;
+}
+    
+.home-info h4{
+        text-align: center;
+        font: 2em 'Roboto';  
+    }
+.btn {
+        left: 20%;
+
+        font: 2.1em 'Roboto';
+        
+      }
+
+}
+
+@media screen and (min-width: 1200px) {
+    
+}
+
+
+

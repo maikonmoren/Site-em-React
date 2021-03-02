@@ -1,0 +1,99 @@
+
+    .nav{
+        position: absolute;
+        position: fixed;
+        top: 11px;
+        left: 2%;
+        width: 94%;
+        height: 60px;
+        background: rgba(241, 238, 250, 0.705);
+    }
+   
+    .nav a{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
+        text-align: center;
+        padding: 10px 0;
+        color:rgba(50, 7, 243, 0.767);
+    }
+    .nav a:hover{
+        background: rgb(42, 92, 231);
+        color: white;
+    }
+   
+    .espaco{
+        position: relative;
+        width: 60%;
+    }
+    .buttonMob {
+        position: absolute;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        background-color: rgb(241, 238, 250);  
+}
+    .buttonMob i{
+            background: rgb(255, 255, 255);
+            color:rgba(50, 7, 243, 0.767);
+        
+    }
+    .buttonMob i:hover{
+        background: rgb(42, 92, 231);
+        color: white;
+    
+}
+.logo{
+    position: relative;
+    left: 2px;
+}
+/* Header
+/*Small Smartphones*/
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    .header{display:flex; flex-direction: column;}
+    
+    .nav img{display:none;}
+    .nav{display:none; top: 42px; flex-direction: column; order:2;background-color: white;}
+    .nav a{width: 100%; background-color: white; }
+    
+    .buttonMob{order:1; text-align: right; padding: 5px 5% 5px 0;}
+    
+}
+
+/*Medium Smartphones*/
+@media screen and (min-width: 360px) and (max-width: 766px) {
+    .header{display:flex; flex-direction: column;}
+    
+    .nav{display:none; flex-direction: column; order:2; background: rgb(241, 238, 250);}
+    .nav a{width: 100%; }
+    .nav img{display:none;}
+    
+    .buttonMob{order:1; text-align: right; padding: 5px 5% 5px 0;}
+
+    .address{order:3; padding: 10px 5%; line-height: 30px; color:rgba(50, 7, 243, 0.767); text-align: center; background: rgba(241, 238, 250, 0.705);}
+    .address img{vertical-align: middle;}
+    .address strong{font-size: 1em;}
+}
+
+/*Large Smartphones and small notebooks*/
+@media screen and (min-width: 767px) and (max-width: 1199px) {
+    .nav{display:flex;background: rgb(241, 238, 250);}
+    .nav a{width: 20%;font-size: 1em;}
+    
+    .buttonMob{display:none;}
+    
+    .address{float:left; width: 100%; padding: 20px 5% 10px 20%; line-height: 35px; text-align: right;}
+    .address img{vertical-align: middle;}
+    .address strong{color: rgba(50, 7, 243, 0.767); font-size: 1em;}
+}
+
+/*XLarges screens*/
+@media screen and (min-width: 1200px) {
+    .nav{display:flex;}
+    .nav a{width: 25%;}
+    
+    .buttonMob{display:none;}
+    
+    .address{float:right; width: 40%; padding: 20px 5% 10px 20%; line-height: 35px; text-align: center;}
+    .address img{vertical-align: middle;}
+    .address strong{color: rgba(50, 7, 243, 0.87);; font-size: 1em;}
+}

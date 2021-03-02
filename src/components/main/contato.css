@@ -1,0 +1,68 @@
+.contato{
+    position: relative;
+    width: 90%;
+    top: 1400px;
+    background-color: rgb(124, 187, 245);
+    left: 5%;
+}
+.contato form{
+    background-color: white;
+    width: 100%;
+    
+}
+.contato h1{
+    position: relative;
+    left: 2%;
+    font: 1.6em 'Roboto';
+    font-weight: 200px;
+    padding: 5px 5px 5px 20px;
+    position: 2px;
+}
+.input-group{
+    position: relative;
+    left: 5%;
+    width: 500px;
+    padding: 5px 5px 5px 5px;
+    width: 448px;
+}
+#sobrenome{
+    position: absolute;
+    top: 90px;
+    left:  290px;
+}
+#select{
+    position: absolute;
+    top: 145px;
+    left:290px;
+}
+.contato label,input{
+    font-size: 20px;
+    overflow:hidde;
+}
+
+.contato button{
+    padding: 5px 5px 5px 5px;
+}
+@media screen and (max-width: 480px) {
+    .contato{
+        position: relative;
+        top: 400px;
+    }
+    #sobrenome{
+        position: relative;
+        left: 5%;
+        top: 0px;
+    }
+    #select{
+        position: relative;
+        top: 0px;
+        left:5%;
+        width: 90%;
+    }
+    .input-group{
+        position: relative;
+        left: 5%;
+        width: 90%;
+        padding: 5px 5px 5px 5px;
+    }
+}

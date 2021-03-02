@@ -1,0 +1,142 @@
+.mainsobre{
+    position: relative;
+    width: 90%;
+    top: 700px;
+    left: 5%;
+    word-break: break-all;
+    background: rgb(124, 187, 245);
+}
+.mainsobre h1{
+    font: 1.6em 'Roboto';
+    font-weight: 200px;
+    padding: 5px 5px 5px 20px;
+    position: 2px;
+}
+.mainsobre p{
+    font: 1.2em 'Roboto';
+    padding: 6px 6px 20px 6px;
+    text-align: justify;
+    word-break: normal;
+    color: rgb(54, 54, 53);
+}
+.mainsobre div{
+    background-color: rgba(255, 255, 255, 0.555);
+}
+.left-div {
+    position: absolute;
+    width: 500px;
+    word-break: break-all;
+}
+.left-div img{
+    position: relative;
+    top: -120px;
+    float: none;
+    width: 700px;
+    margin: 1px 5px -70px -90px;
+    border-radius: 2px;
+    }
+.right-div img{
+float: none;
+margin: 1px 5px 4px -70px;
+border-radius: 2px;
+}
+.right-div{
+    position: absolute;
+    left: 50%;
+    width: 500px;
+    word-break: break-all;
+}
+
+@media screen and (max-width: 480px) {
+    .mainsobre{
+        top: 360px;
+        width: 90%;
+        left: 5%;
+    }
+    .mainsobre div{
+        background-color: rgb(255, 255, 255);
+    }
+    .mainsobre p{
+        font: 1em 'Roboto';
+    }
+    .left-div {
+        position: relative;
+        width: 100%;
+    }
+    .right-div{
+        position: relative;
+        left: 0px;
+        width:100%;
+    }
+    .right-div h1{
+        font: 1.4em 'Roboto';
+    }
+    
+    .right-div img{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        }
+    .left-div img{
+     display: none;
+   }
+   }
+   
+   @media screen and (min-width: 481px) and (max-width: 768px) {
+    .mainhome{top: 50px; height: 350px; width: 100%;}
+    .mainhome img{
+       display: none;
+   }
+   .mainhome .titulo{
+       display: none;}
+   
+   .home-info{
+           top: 20%;
+           left: 20%;
+   }
+       
+   .home-info h4{
+           text-align: center;
+           font: 2em 'Roboto';  
+       }
+   .btn {
+           left: 20%;
+           font: 2.1em 'Roboto';
+           
+         }
+   }
+   
+   @media screen and (min-width: 769px) and (max-width: 1199px) {
+     .mainhome{top: 50px; height: 400px; width: 100%;}
+    .mainhome img{
+       top: 15%;
+       width: 4em;
+       left: 10%;
+   }
+   .mainhome .titulo{
+       top: 15%;
+       left: 18%;
+       font: 4em 'Roboto';}
+   
+   .home-info{
+           top: 50%;
+           left: 30%;
+   }
+       
+   .home-info h4{
+           text-align: center;
+           font: 2em 'Roboto';  
+       }
+   .btn {
+           left: 20%;
+   
+           font: 2.1em 'Roboto';
+           
+         }
+   
+   }
+   
+   @media screen and (min-width: 1200px) {
+       
+   }
+   
